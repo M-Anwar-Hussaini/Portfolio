@@ -7,3 +7,127 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: "Inter";
+  width: 37.5rem;
+  margin: 0 auto;
+  line-height: 1;
+  background-color: #e5e5e5;
+}
+
+.bg-color {
+  background-color: #fff;
+}
+
+/* HEADER */
+
+.main-header {
+  text-align: center;
+}
+
+.notification-bar {
+  height: 4.4rem;
+  width: 100%;
+}
+
+.notification-img {
+  width: 100%;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.8rem;
+}
+
+.menu {
+  font-size: 2.4rem;
+}
+
+/* HERO SECTION */
+
+.section-hero {
+  background-image: url(header-illsutration-mobile@2x.png);
+  background-size: cover;
+  padding: 9.6rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.container {
+  width: 32.7rem;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  margin-bottom: 1.5rem;
+  /* Temporary */
+  height: 21.1rem;
+}
+
+.heading-primary span {
+  display: block;
+}
+
+.hero-name {
+  color: #172b4d;
+}
+
+.hero-job {
+  color: #36b37e;
+}
+
+.hero-description {
+  height: 16.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: 0;
+  margin-bottom: 2.3rem;
+  color: #172b4d;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.icon {
+  font-size: 2.4rem;
+  color: #505f79;
+  font-weight: bold;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: #28303d;
+}
+
+.navigator {
+  height: 4rem;
+  width: 4rem;
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: 1px solid #acb7c3;
+}
+
+.navigator i {
+  font-size: 2rem;
+  color: #acb7c3;
+}
