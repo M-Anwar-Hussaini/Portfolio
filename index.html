@@ -10,63 +10,78 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="style.css" />
     <title>Anwar Hussaini's Portfolio</title>
   </head>
   <body>
+    <!----------------------->
+    <!-- HEADER SECTION -->
+    <!----------------------->
     <header class="main-header bg-color">
-      <div class="notification-bar">
-        <img src="Light.png" alt="Notification Bar" class="notification-img" />
-      </div>
       <div class="container">
         <nav class="main-nav">
           <div class="logo-box"></div>
-          <div class="menus-box"><i class="fa-solid fa-bars menu icon"></i></div>
+          <div class="menus-box">
+            <img class="menu-icon" src="imgs/option-button.svg" alt="" />
+          </div>
         </nav>
       </div>
     </header>
 
     <main>
+      <!----------------------->
+      <!-- HERO SECTION -->
+      <!----------------------->
       <section class="section-hero bg-color">
         <div class="container">
-          <h1 class="heading-primary">
-            <div class="hero-name">
-              <span>Hey There.</span>
-              <span>I'm Anwar</span>
-            </div>
-            <div class="hero-job">
-              <span>I'm a software</span>
-              <span>developer</span>
-            </div>
-          </h1>
+          <div class="hero-primary">
+            <h1 class="heading-primary">
+              Hey there. <br />
+              I'm Anwar
+            </h1>
+            <p class="heading-secondary">I'm a software <br />developer</p>
+          </div>
 
-          <div class="hero-description">
+          <p class="hero-description">
             I can help you build a product , feature or website Look through
             some of my work and experience! If you like what you see and have a
             project you need coded, don’t hesitate to contact me.
-          </div>
+          </p>
 
-          <div class="social-media-icons">
+          <!-- Social Media Icons -->
+          <div>
             <ul class="icons">
-              <li><i class="fa-brands fa-twitter icon"></i></li>
               <li>
-                <i class="fa-brands fa-linkedin-in icon"></i>
+                <a href="#" class="icon"
+                  ><img src="imgs/social-icons/twitter.svg" alt="Twitter icon"
+                /></a>
               </li>
-              <li><i class="fa-solid fa-m icon"></i></li>
-              <li><i class="fa-brands fa-github icon"></i></li>
-              <li><i class="fa-brands fa-angellist icon"></i></li>
+              <li>
+                <a href="#" class="icon"
+                  ><img
+                    src="imgs/social-icons/Linkedin.svg"
+                    alt="Linkedin icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="icon"
+                  ><img src="imgs/social-icons/medium.svg" alt="Linkedin icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="icon"
+                  ><img src="imgs/social-icons/github.svg" alt="Linkedin icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="icon"
+                  ><img
+                    src="imgs/social-icons/angellist.svg"
+                    alt="Linkedin icon"
+                /></a>
+              </li>
             </ul>
           </div>
-        </div>
-        <div class="navigator">
-          <i class="fa-solid fa-angle-down"></i>
         </div>
       </section>
     </main>
