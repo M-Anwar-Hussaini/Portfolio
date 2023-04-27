@@ -57,7 +57,8 @@ main {
   background-image: url(imgs/header-illsutration-mobile@2x.png);
   background-size: cover;
   padding: 6.4rem 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .hero-primary {
