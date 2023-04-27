@@ -1,3 +1,4 @@
+/* GENERAL SETTINGS */
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +7,107 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  background-color: #e5e5e5;
+}
+
+header,
+main {
+  width: 37.5rem;
+  margin: 0 auto;
+}
+
+.bg-color {
+  background-color: #fff;
+}
+
+.container {
+  padding: 0 2.7rem;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.main-header {
+  text-align: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.8rem;
+  padding: 3rem 0;
+}
+
+.menu-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+.section-hero {
+  background-image: url(imgs/header-illsutration-mobile@2x.png);
+  background-size: cover;
+  padding: 6.4rem 2.7rem;
+  position: relative;
+
+  /* Flex Layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-primary {
+  margin-bottom: 1.5rem;
+}
+
+.heading-primary,
+.heading-secondary {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  text-align: center;
+}
+
+.heading-primary {
+  color: #172b4d;
+}
+
+.heading-secondary {
+  color: #36b37e;
+}
+
+.hero-description {
+  height: 16.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: 0;
+  margin-bottom: 2.3rem;
+  color: #172b4d;
+  text-align: center;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navigator {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
