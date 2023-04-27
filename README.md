@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Hello Microverse Project</b></h3>
+  <h3><b>Portfolio</b></h3>
 
 </div>
 
@@ -66,7 +66,7 @@ In this project best coding practices is use
 
 To get a local copy up and running, follow these steps.
 
-1. Go to this URL link: https://github.com/M-Anwar-Hussaini/HelloWorld-Microverse
+1. Go to this URL link: https://github.com/M-Anwar-Hussaini/Portfolio
 2. clone the repo and start working on it.
 
 ### Prerequisites
