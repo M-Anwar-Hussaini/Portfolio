@@ -56,16 +56,17 @@ main {
 .section-hero {
   background-image: url(imgs/header-illsutration-mobile@2x.png);
   background-size: cover;
-  padding: 6.4rem 0;
+  padding: 6.4rem 2.7rem;
+
+  /* Flex Layout */
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-primary {
   margin-bottom: 1.5rem;
-
-  /* Temporary */
-  height: 21.1rem;
 }
 
 .heading-primary,
@@ -73,6 +74,7 @@ main {
   font-size: 4rem;
   font-weight: 700;
   line-height: 5.2rem;
+  text-align: center;
 }
 
 .heading-primary {
@@ -91,6 +93,7 @@ main {
   letter-spacing: 0;
   margin-bottom: 2.3rem;
   color: #172b4d;
+  text-align: center;
 }
 
 .icons {
