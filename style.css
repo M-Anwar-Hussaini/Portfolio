@@ -76,7 +76,9 @@ ul {
   margin-bottom: 2.4rem;
 }
 
-.btn {
+.btn:link,
+.btn:visited,
+.btn:hover {
   font-size: 1.7rem;
   font-weight: 500;
   line-height: 2.4rem;
@@ -89,6 +91,10 @@ ul {
   display: inline-block;
   border-radius: 4px;
   margin: 0 auto;
+}
+
+.btn:active {
+  background: #008552;
 }
 
 /* ********** */
