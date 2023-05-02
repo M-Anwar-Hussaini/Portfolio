@@ -163,6 +163,12 @@ Your working browser.
 - Twitter: [@MAnwarHussaini](https://twitter.com/MAnwarHussaini)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-anwar-hussaini-876638267/)
 
+👤 **Hernán Güemes**
+
+- GitHub: [@githubhandle](https://github.com/HFG43)
+- Twitter: [@twitterhandle](https://twitter.com/HFG_43)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-g%C3%BCemes-a440591b/)
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
