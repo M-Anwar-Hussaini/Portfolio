@@ -354,6 +354,7 @@ ul {
   letter-spacing: 0;
   padding: 1.5rem;
   border: 1px solid #555;
+  border-radius: 4px;
 }
 
 .message {
