@@ -10,43 +10,37 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <title>Anwar Hussaini's Portfolio</title>
   </head>
   <body>
     <!----------------------->
     <!-- HEADER SECTION -->
     <!----------------------->
-    <header class="main-header bg-color section section-sm">
-      <div class="container">
-        <nav class="main-nav">
-          <div class="logo-box"></div>
-          <div class="menus-box">
-            <img
-              class="menu-icon mobile-only"
-              src="imgs/mobile-version/icon-menu.png"
-              alt=""
-            />
-          </div>
-        </nav>
-      </div>
-    </header>
+    <header class="main-header section bg-color section section-sm">
+      <nav class="main-nav">
+        <img
+          class="menu-icon mobile-only"
+          src="imgs/mobile-version/icon-menu.png"
+          alt="Menu Icon"
+        />
+        <ul class="menu desktop-only">
+          <li></li>
+          <li><a href="#" class="menu-item">Portfolio</a></li>
+          <li><a href="#about" class="menu-item">About</a></li>
+          <li><a href="#contact" class="menu-item">Contact</a></li>
+        </ul>
+      </nav>
 
-    <!--------------------------->
-    <!-- MAIN PART OF THE PAGE -->
-    <!--------------------------->
-    <main class="bg-color main">
       <!----------------------->
-      <!-- HERO SECTION -->
+      <!-- HERO PART -->
       <!----------------------->
-      <section class="section-hero section section--lg">
+      <div class="hero">
         <div class="hero-primary">
-          <h1 class="heading-primary">
-            Hey there. <br />
-            I'm Anwar
-          </h1>
-          <p class="heading-secondary-green">I'm a software <br />developer</p>
+          <h1 class="heading-primary">Hey there. I'm Anwar</h1>
+          <h2 class="heading-secondary-green">I'm a software developer</h2>
         </div>
 
         <p class="normal-text">
@@ -92,8 +86,13 @@
           alt="Arrow down"
           class="navigator"
         />
-      </section>
+      </div>
+    </header>
 
+    <!--------------------------->
+    <!-- MAIN PART OF THE PAGE -->
+    <!--------------------------->
+    <main class="bg-color main">
       <!----------------------->
       <!-- WORKS SECTION -->
       <!----------------------->
@@ -219,7 +218,7 @@
       <!-- ABOUT ME SECTION -->
       <!----------------------->
 
-      <section class="section-about section section--lg">
+      <section class="section-about section section--lg" id="about">
         <div class="about-header">
           <h2 class="heading-secondary">About me</h2>
           <p class="normal-text">
@@ -270,7 +269,6 @@
                 <li class="card-btn">React.js</li>
                 <li class="card-btn">Ruby on Rails</li>
                 <li class="card-btn">RSpec</li>
-                <li class="card-btn">CSS</li>
               </ul>
               <ul class="flex card-items">
                 <li class="card-btn">Capybara</li>
@@ -299,22 +297,43 @@
             </div>
           </li>
         </ul>
+
+        <!-- Absolute Positions -->
+        <img
+          src="imgs/desktop-version/illustrations/about-top-left.png"
+          alt="Beautiful illustration"
+          class="desktop-only position-absolute position--top position--left"
+        />
+        <img
+          src="imgs/desktop-version/illustrations/about-top-right.png"
+          alt="Beautiful illustration"
+          class="desktop-only position-absolute position--top position--right"
+        />
       </section>
 
       <!----------------------->
       <!-- CONTACT ME SECTION -->
       <!----------------------->
-      <section class="section-contact section section--lg">
+      <section class="section-contact section section--lg" id="contact">
+        <div class="contact-header">
+          <h3 class="heading-tertiary">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h3>
+
+          <!-- Absolute Positions Mobile Version-->
+          <img
+            src="imgs/mobile-version/contact-bg.png"
+            alt="Green Beautiful illustration"
+            class="contact-bg mobile-only"
+          />
+        </div>
+
         <form
           class="form-contact"
           action="https://formspree.io/f/xrgvjqwj"
           method="post"
         >
-          <h2 class="contact-header">
-            I'm always interested in hearing about new projects, so if you'd
-            like to chat please get in touch.
-          </h2>
-
           <!-- Collaborative Part -->
           <ul class="form-fields">
             <li>
@@ -353,11 +372,6 @@
             >anwarhussaini160@gmail.com</a
           >
         </form>
-        <img
-          src="imgs/mobile-version/contact-bg.png"
-          alt="Green Beautiful illustration"
-          class="contact-bg mobile-only"
-        />
       </section>
     </main>
 
@@ -396,6 +410,18 @@
         class="mobile-only"
         src="imgs/mobile-version/end-bar.png"
         alt="Small Horizontal bar"
+      />
+      <!-- Absolute Positions Desktop Version-->
+      <img
+        src="imgs/desktop-version/illustrations/about-bottom-center.png"
+        alt="Beautiful illustration"
+        class="desktop-only position-absolute position--bottom position--center-X"
+      />
+
+      <img
+        src="imgs/desktop-version/illustrations/about-bottom-left.png"
+        alt="Beautiful illustration"
+        class="desktop-only position-absolute position--bottom position--left"
       />
     </footer>
   </body>

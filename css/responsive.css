@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    visibility: visible;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .menu-item {
+    color: #555;
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+
+  .main-header {
+    background-image: url(../imgs/desktop-version/header-desktop-bg.png);
+    background-origin: border-box;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .work-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 24px;
+    justify-items: center;
+  }
+
+  .cards {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.4rem;
+  }
+
+  .section-contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 2.4rem;
+    align-items: center;
+  }
+}
