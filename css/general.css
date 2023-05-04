@@ -10,6 +10,7 @@
   border: none;
   text-decoration: none;
   list-style: none;
+  transition: smooth 0.4s;
 }
 
 html {
