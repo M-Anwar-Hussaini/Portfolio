@@ -253,3 +253,14 @@
   gap: 3rem;
   align-items: center;
 }
+
+/* Collaborative Working - Animations & Transitions*/
+
+.card-icon {
+  transition: all 0.3s;
+}
+
+.card-icon:hover {
+  transform: scale(1.4);
+  cursor: pointer;
+}
