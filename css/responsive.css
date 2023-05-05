@@ -10,8 +10,29 @@
     display: none;
   }
 
+  .main {
+    position: relative;
+  }
+
   .desktop-only {
     visibility: visible;
+  }
+
+  .heading-primary,
+  .heading-secondary-green {
+    font-size: 4.8rem;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: center;
+  }
+
+  .heading-secondary {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.2rem;
+    letter-spacing: 0;
+    text-align: center;
   }
 
   .menu {
@@ -21,8 +42,8 @@
   }
 
   .menu-item {
-    color: #555;
-    font-size: 2rem;
+    color: #172b4d;
+    font-size: 1.6rem;
     font-weight: 600;
     display: inline-block;
     padding: 8px 16px;
@@ -63,6 +84,7 @@
     grid-template-rows: repeat(1, 1fr);
     column-gap: 2.4rem;
     align-items: center;
+    padding-bottom: 22rem;
   }
 
   .desktop-only.heading-tertiary {
@@ -84,20 +106,24 @@
 
   .footer {
     position: relative;
+    border-top: 1px solid  #dfe1e6;
   }
 
-  .footer-botoom-left-bg {
+  .main-botoom-left-bg {
     position: absolute;
-    bottom: 0;
+    bottom: -2rem;
     left: 0;
-    width: 10%;
   }
 
-  .footer-bottom-right-bg {
+  .main-bottom-right-bg {
     position: absolute;
     bottom: 0;
     right: 0;
-    overflow: hidden;
-    width: 10%;
+  }
+
+  .main-center-bg {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
   }
 }
