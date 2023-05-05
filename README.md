@@ -9,25 +9,22 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Portfolio\] ](#-portfolio-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [**Key Features** ](#key-features-)
+  - [**💻 Getting Started** ](#-getting-started-)
+  - [**Prerequisites**](#prerequisites)
+  - [**Setup**](#setup)
+    - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [📝 License ](#-license-)
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
@@ -35,7 +32,9 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-html, css, git, github and linters.
+- **HTML**
+- **CSS**
+- **Linters**
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -54,52 +53,61 @@ html, css, git, github and linters.
   </ul>
 </details>
 
-### Key Features <a name="key-features"></a>
+---
 
-- **[Best Practices]**
-- **[Clean Coded]**
-- **[Extendable and flexable]**
+## **Key Features** <a name="key-features"></a>
+
+- [x] **Portfolio Home**
+- [x] **About**
+- [x] **Work Templates**
+- [x] **Contact Form**
+- [x] **Responsive**
+- [x] **MIT Liscence**
 
 In this project best coding practices is use
 
-## 💻 Getting Started <a name="getting-started"></a>
+---
+
+## **💻 Getting Started** <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
 1. Go to this URL link: https://github.com/M-Anwar-Hussaini/Portfolio
 2. clone the repo and start working on it.
 
-### Prerequisites
+---
 
-In order to run this project you need:
+## **Prerequisites**
 
-Google Chrome or other browser
+- In order to run this project you need:
+
+- Google Chrome or other browser
 
 ```sh
   https://www.google.com/chrome/?brand=JJTC&gclid=CjwKCAjw9J2iBhBPEiwAErwpeSDcMFWiIQWj2u5GY6owZ7OaOHw7dYYCHW7uTR4kvYosNJYd4wt4VxoCiywQAvD_BwE&gclsrc=aw.ds
 ```
 
-Github Account:
+- Github Account:
 
 ```sh
   https://github.com/
 ```
 
-Npm installed:
+- Npm installed:
 
 ```sh
   https://nodejs.org/en/download
 ```
 
-Git installed:
+- Git installed:
 
 ```sh
   https://git-scm.com/downloads/
 ```
 
-### Setup
+## **Setup**
 
-Clone this repository to your desired folder:
+Clone [this repository](https://github.com/M-Anwar-Hussaini/Portfolio) to your desired folder:
 
 ```sh
   cd my-folder
@@ -110,27 +118,27 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-Linters:
+- Linters:
 
-Lighthouse run:
+- Lighthouse run:
 
 ```sh
   npm install -g @lhci/cli@0.7.x
 ```
 
-Webhint run
+- Webhint run
 
 ```sh
  npm install --save-dev hint@7.x
 ```
 
-StyleLint run:
+- StyleLint run:
 
 ```sh
  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
 
-### Usage
+## Usage
 
 To run the project, execute the following command:
 
@@ -139,11 +147,11 @@ To run the project, execute the following command:
   index.html
 ```
 
-### Run tests
+## Run tests
 
 To run tests, run the following command:
 
-to check for styling errors:
+- [x] To check for styling errors:
 
 ```sh
   npx stylelint "**/*.{css,scss}"
@@ -151,23 +159,21 @@ to check for styling errors:
 
 ### Deployment
 
-You can deploy this project using:
-
-Your working browser.
+- [] You can deploy this project using your working browser.
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Mohammad Anwar Hussaini**
 
-- GitHub: [@M-Anwar-Hussaini](https://github.com/M-Anwar-Hussaini)
-- Twitter: [@MAnwarHussaini](https://twitter.com/MAnwarHussaini)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-anwar-hussaini-876638267/)
+- [ ] GitHub: [@M-Anwar-Hussaini](https://github.com/M-Anwar-Hussaini)
+- [ ] Twitter: [@MAnwarHussaini](https://twitter.com/MAnwarHussaini)
+- [ ] LinkedIn: [Mohammad Anwar Hussaini](https://www.linkedin.com/in/mohammad-anwar-hussaini-876638267/)
 
 👤 **Hernán Güemes**
 
-- GitHub: [@githubhandle](https://github.com/HFG43)
-- Twitter: [@twitterhandle](https://twitter.com/HFG_43)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-g%C3%BCemes-a440591b/)
+- [ ] GitHub: [@githubhandle](https://github.com/HFG43)
+- [ ] Twitter: [@twitterhandle](https://twitter.com/HFG_43)
+- [ ] LinkedIn: [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-g%C3%BCemes-a440591b/)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
