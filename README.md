@@ -9,25 +9,23 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Portfolio\] ](#-portfolio-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [📝 License ](#-license-)
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
@@ -35,7 +33,11 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-html, css, git, github and linters.
+- ✅ HTML
+- ✅ CSS
+- ✅ Git
+- ✅ Github.
+- ✅ Linters
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -60,7 +62,11 @@ html, css, git, github and linters.
 - **[Clean Coded]**
 - **[Extendable and flexable]**
 
-In this project best coding practices is use
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://m-anwar-hussaini.github.io/Portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -151,7 +157,7 @@ to check for styling errors:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using [this repository](https://github.com/M-Anwar-Hussaini/Portfolio).
 
 Your working browser.
 
