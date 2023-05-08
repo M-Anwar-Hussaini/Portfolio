@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://m-anwar-hussaini.github.io/Portfolio/)
+- You can see this portfolio live by [clicking here](https://m-anwar-hussaini.github.io/Portfolio/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
