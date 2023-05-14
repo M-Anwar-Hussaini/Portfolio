@@ -14,10 +14,6 @@
     position: relative;
   }
 
-  .desktop-only {
-    visibility: visible;
-  }
-
   .heading-primary,
   .heading-secondary-green {
     font-size: 4.8rem;
