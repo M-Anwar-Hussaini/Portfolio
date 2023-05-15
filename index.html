@@ -22,11 +22,13 @@
     <header class="main-header section bg-color section section-sm">
       <nav class="main-nav">
         <img
-          class="menu-icon mobile-only"
+          class="menu-icon mobile-only is-active"
           src="imgs/mobile-version/icon-menu.png"
-          alt="Menu Icon"
+          alt="Menu Icon menu-icon"
         />
-        <ul class="menu desktop-only">
+
+        <!-- For Desktop Version -->
+        <ul class="desktop-menu desktop-only">
           <li></li>
           <li><a href="#" class="menu-item">Portfolio</a></li>
           <li><a href="#about" class="menu-item">About</a></li>
@@ -88,6 +90,25 @@
         />
       </div>
     </header>
+
+    <!-- For Mobile Version -->
+    <nav class="mobile-nav">
+      <div class="mobile-nav-header">
+        <div class="left"></div>
+        <div class="right">
+          <img
+            src="imgs/mobile-version/cross-btn.png"
+            alt="Cross button"
+            class="close-btn"
+          />
+        </div>
+      </div>
+      <ul class="mobile-menu mobile-only">
+        <li><a href="#" class="menu-item">Portfolio</a></li>
+        <li><a href="#about" class="menu-item">About</a></li>
+        <li><a href="#contact" class="menu-item">Contact</a></li>
+      </ul>
+    </nav>
 
     <!--------------------------->
     <!-- MAIN PART OF THE PAGE -->
@@ -430,6 +451,7 @@
         alt="Small Horizontal bar"
       />
     </footer>
+    <script src="javascripts/script.js"></script>
   </body>
 </html>
 <!-- Something unnecesary -->
