@@ -190,6 +190,10 @@ Your working browser.
 - [ ] Twitter: [@twitterhandle](https://twitter.com/HFG_43)
 - [ ] LinkedIn: [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-g%C3%BCemes-a440591b/)
 
+👤 **Erwin Amador**
+
+- [ ] GitHub: [@eamador1](https://github.com/eamador1)
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
