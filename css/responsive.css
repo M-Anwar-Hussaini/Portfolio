@@ -123,3 +123,44 @@
     left: 20%;
   }
 }
+
+@media (max-width: 768px) {
+  /* ******************
+  * Mobile Menu *
+  *********************/
+  .mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #fff;
+    z-index: 100;
+    padding: 2.8rem;
+    transition: ease 0.4s;
+  }
+
+  .mobile-nav.is-active {
+    left: 0;
+  }
+
+  .mobile-nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .close-btn {
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .mobile-menu a {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: 0;
+    color: #3a4a42;
+  }
+}
