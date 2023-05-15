@@ -15,6 +15,6 @@ closeBtn.addEventListener('click', () => {
 
 for (let i = 0; i < menuItems.length; i += 1) {
   menuItems[i].addEventListener('click', () => {
-    navBar.classList.remove('is-active')
+    navBar.classList.remove('is-active');
   });
 }
