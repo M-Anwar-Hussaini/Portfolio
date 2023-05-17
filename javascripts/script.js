@@ -18,3 +18,7 @@ for (let i = 0; i < menuItems.length; i += 1) {
     navBar.classList.remove('is-active');
   });
 }
+
+/* *******************
+* FOR POP UP WINDOWS *
+******************* */

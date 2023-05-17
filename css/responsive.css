@@ -10,6 +10,10 @@
     display: none;
   }
 
+  .desktop-only {
+    display: block;
+  }
+
   .main {
     position: relative;
   }
@@ -29,6 +33,12 @@
     line-height: 5.2rem;
     letter-spacing: 0;
     text-align: center;
+  }
+
+  .desktop-menu {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
   }
 
   .menu {
