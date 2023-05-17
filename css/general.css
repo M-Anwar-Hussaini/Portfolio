@@ -20,6 +20,7 @@ html {
 body {
   font-family: "Inter", sans-serif;
   line-height: 1;
+  position: relative;
 }
 
 .heading-primary,
@@ -105,9 +106,6 @@ body {
   color: #172b4d;
 }
 
-.desktop-only {
-  visibility: hidden;
-}
 
 .position-absolute {
   position: absolute;

@@ -1,0 +1,107 @@
+.pop-up {
+  scrollbar-gutter: stable;
+  padding: 4rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-51%, -50%);
+  height: 80vh;
+  box-sizing: content-box;
+  z-index: 100;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+.pop-up-img-box {
+  border-radius: 1.6rem;
+  position: relative;
+}
+
+.pop-up-hero-img {
+  width: 100%;
+}
+
+.pop-up-close-btn {
+  padding: 1rem;
+  cursor: pointer;
+  position: inherit;
+  display: block;
+  height: 5rem;
+  float: right;
+}
+
+.pop-up-heading {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4.4rem;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+.pop-up-technologies {
+  display: flex;
+  gap: 8px;
+}
+
+.pop-up-technologies button {
+  border-radius: 4px;
+  padding: 8px 12px 8px 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.pop-up-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.pop-up-description p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+.pop-up-btn-box {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.pop-up-btn-box .btn {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin: 0 !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 60%);
+  backdrop-filter: blur(5px);
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .pop-up-btn-box {
+    justify-content: end;
+  }
+}

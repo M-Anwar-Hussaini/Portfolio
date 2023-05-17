@@ -9,6 +9,10 @@
   padding: 3rem 0;
 }
 
+.desktop-menu {
+  display: none;
+}
+
 .menu-icon {
   position: absolute;
   right: 2rem;
@@ -252,4 +256,8 @@
   flex-direction: column;
   gap: 3rem;
   align-items: center;
+}
+
+.desktop-only {
+  display: none;
 }

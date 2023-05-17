@@ -10,9 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/pop-up.css" />
     <title>Anwar Hussaini's Portfolio</title>
   </head>
   <body>
@@ -28,7 +29,7 @@
         />
 
         <!-- For Desktop Version -->
-        <ul class="desktop-menu desktop-only">
+        <ul class="desktop-menu">
           <li></li>
           <li><a href="#" class="menu-item">Portfolio</a></li>
           <li><a href="#about" class="menu-item">About</a></li>
@@ -143,7 +144,7 @@
                 <li class="work-feature-item">JavaScript</li>
                 <li class="work-feature-item">HTML</li>
               </ul>
-              <a href="#" class="btn">See project</a>
+              <a href="#" class="btn btn--project">See project</a>
             </div>
           </div>
 
@@ -161,7 +162,7 @@
                 <li class="work-feature-item">JavaScript</li>
                 <li class="work-feature-item">HTML</li>
               </ul>
-              <a href="#" class="btn">See project</a>
+              <a href="#" class="btn btn--project">See project</a>
             </div>
           </div>
           <!-- Work 1 -->
@@ -178,7 +179,7 @@
                 <li class="work-feature-item">JavaScript</li>
                 <li class="work-feature-item">HTML</li>
               </ul>
-              <a href="#" class="btn">See project</a>
+              <a href="#" class="btn btn--project">See project</a>
             </div>
           </div>
           <!-- Work 1 -->
@@ -195,7 +196,7 @@
                 <li class="work-feature-item">JavaScript</li>
                 <li class="work-feature-item">HTML</li>
               </ul>
-              <a href="#" class="btn">See project</a>
+              <a href="#" class="btn btn--project">See project</a>
             </div>
           </div>
           <!-- Work 1 -->
@@ -212,7 +213,7 @@
                 <li class="work-feature-item">JavaScript</li>
                 <li class="work-feature-item">HTML</li>
               </ul>
-              <a href="#" class="btn">See project</a>
+              <a href="#" class="btn btn--project">See project</a>
             </div>
           </div>
           <!-- Work 1 -->
@@ -229,7 +230,7 @@
                 <li class="work-feature-item">JavaScript</li>
                 <li class="work-feature-item">HTML</li>
               </ul>
-              <a href="#" class="btn">See project</a>
+              <a href="#" class="btn btn--project">See project</a>
             </div>
           </div>
         </div>
@@ -451,7 +452,61 @@
         alt="Small Horizontal bar"
       />
     </footer>
+    <div class="overlay hidden"></div>
+
+    <!----------------------->
+    <!-- POP-UP WINDOWS -->
+    <!----------------------->
+    <section class="pop-up hidden">
+      <div class="pop-up-img-box">
+        <img
+          src="imgs/mobile-version/cross-btn.png"
+          alt="Close btn"
+          class="pop-up-close-btn"
+        />
+        <!-- For Mobile -->
+        <img
+          src="imgs/mobile-version/pop-up-img.png"
+          alt="Backgroun image"
+          class="pop-up-hero-img mobile-only"
+        />
+
+        <!-- For Desktop -->
+        <img
+          src="imgs/desktop-version/pop-up-bg-desktop.png"
+          alt="Backgroun image"
+          class="pop-up-hero-img desktop-only"
+        />
+      </div>
+      <h2 class="pop-up-heading">Keeping track of hundreds of components</h2>
+      <div class="pop-up-technologies">
+      </div>
+      <div class="pop-up-description"></div>
+      <div class="pop-up-btn-box">
+        <a
+          class="btn"
+          href="https://m-anwar-hussaini.github.io/Portfolio/"
+          target="_blank"
+        >
+          <span>See Live</span>
+          <img src="imgs/see-live-icon.png" alt="See live Icon" />
+        </a>
+        <a
+          class="btn"
+          target="_blank"
+          href="https://github.com/M-Anwar-Hussaini/Portfolio/blob/master/index.html"
+        >
+          <span>See Source</span>
+          <img src="imgs/github-icon.png" alt="Github icon" />
+        </a>
+      </div>
+    </section>
+
+    <!---------------------->
+    <!-- JavaScript Files -->
+    <!---------------------->
     <script src="javascripts/script.js"></script>
+    <script src="javascripts/pop-up.js"></script>
   </body>
 </html>
 <!-- Something unnecesary -->
