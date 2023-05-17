@@ -88,6 +88,8 @@ const projectButtons = document.querySelectorAll('.btn--project');
 const overlay = document.querySelector('.overlay');
 const popUpWindow = document.querySelector('.pop-up');
 const closePopUpBtn = document.querySelector('.pop-up-close-btn');
+const livebtn = document.querySelector('.btn--seelive');
+const sourcebtn = document.querySelector('.btn--source');
 
 // Pop-up Variables
 const projectName = document.querySelector('.pop-up-heading');
@@ -129,3 +131,11 @@ for (let i = 0; i < projectButtons.length; i += 1) {
   });
 }
 closePopUpBtn.addEventListener('click', closePopUp);
+
+livebtn.addEventListener('click', () => {
+  window.open(projectDetails[0].live);
+});
+
+sourcebtn.addEventListener('click', () => {
+  window.open(projectDetails[0].source);
+});
