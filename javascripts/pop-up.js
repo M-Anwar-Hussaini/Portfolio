@@ -90,6 +90,7 @@ const popUpWindow = document.querySelector('.pop-up');
 const closePopUpBtn = document.querySelector('.pop-up-close-btn');
 const livebtn = document.querySelector('.btn--seelive');
 const sourcebtn = document.querySelector('.btn--source');
+const body = document.querySelector('body');
 
 // Pop-up Variables
 const projectName = document.querySelector('.pop-up-heading');
@@ -100,11 +101,13 @@ const technologies = document.querySelector('.pop-up-technologies');
 const showPopUp = () => {
   overlay.classList.remove('hidden');
   popUpWindow.classList.remove('hidden');
+  body.classList.add('hide-scroll');
 };
 
 const closePopUp = () => {
   overlay.classList.add('hidden');
   popUpWindow.classList.add('hidden');
+  body.classList.remove('hide-scroll');
 };
 
 // Actions

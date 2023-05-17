@@ -1,21 +1,20 @@
 .pop-up {
   scrollbar-gutter: stable;
-  padding: 4rem 1.6rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 90%;
-  transform: translate(-51%, -50%);
-  height: 80vh;
-  box-sizing: content-box;
+  width: 95vw;
+  height: 95vh;
+  transform: translate(-50%, -50%);
   z-index: 100;
   overflow-y: scroll;
   overflow-x: hidden;
   background-color: #fff;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .pop-up-img-box {
@@ -28,12 +27,14 @@
 }
 
 .pop-up-close-btn {
-  padding: 1rem;
+  position: absolute;
+  top: 5.3%;
+  right: 4.6%;
+  padding: 2px;
   cursor: pointer;
-  position: inherit;
-  display: block;
-  height: 5rem;
-  float: right;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #ebecf0;
 }
 
 .pop-up-heading {
@@ -100,8 +101,31 @@
   display: none;
 }
 
+.hide-scroll {
+  overflow: hidden;
+}
+
 @media (min-width: 768px) {
+  .pop-up {
+    max-width: 600px;
+    padding: 5rem 2rem 3rem;
+  }
+
   .pop-up-btn-box {
     justify-content: end;
+  }
+
+  .pop-up-close-btn {
+    top: -3rem;
+    right: 0;
+    height: 2.4rem;
+    border-radius: 3px;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 950px) {
+  .pop-up {
+    max-width: 850px;
   }
 }
