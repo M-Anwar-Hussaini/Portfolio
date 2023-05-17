@@ -7,7 +7,7 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 40rem;
+  width: 95vw;
   height: 95vh;
   transform: translate(-50%, -50%);
   z-index: 100;
