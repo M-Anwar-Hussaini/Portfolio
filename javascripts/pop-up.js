@@ -1,7 +1,7 @@
 const projectDetails = [
   {
     name: 'Keeping track of hundreds of components #1',
-    deskcription: [
+    description: [
       'This is the description of first project',
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
@@ -15,7 +15,7 @@ const projectDetails = [
   // Project #2
   {
     name: 'Keeping track of hundreds of components #2',
-    deskcription: [
+    description: [
       'This is the description of second project',
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
@@ -28,7 +28,7 @@ const projectDetails = [
   },
   {
     name: 'Keeping track of hundreds of components #3',
-    deskcription: [
+    description: [
       'This is the description of third project',
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
@@ -42,7 +42,7 @@ const projectDetails = [
   // Project #4
   {
     name: 'Keeping track of hundreds of components #4',
-    deskcription: [
+    description: [
       'This is the description of forth project',
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
@@ -56,7 +56,7 @@ const projectDetails = [
   // Project #5
   {
     name: 'Keeping track of hundreds of components #5',
-    deskcription: [
+    description: [
       'This is the description of fifth project',
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
@@ -70,7 +70,7 @@ const projectDetails = [
   // Project #6
   {
     name: 'Keeping track of hundreds of components #6',
-    deskcription: [
+    description: [
       'This is the description of sixth project',
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
@@ -124,9 +124,9 @@ for (let i = 0; i < projectButtons.length; i += 1) {
       technologies.append(tech);
     }
 
-    for (let n = 0; n < currentProject.deskcription.length; n += 1) {
+    for (let n = 0; n < currentProject.description.length; n += 1) {
       const para = document.createElement('p');
-      para.innerHTML = currentProject.deskcription[n];
+      para.innerHTML = currentProject.description[n];
       description.append(para);
     }
 

@@ -7,7 +7,7 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 95vw;
+  width: 40rem;
   height: 95vh;
   transform: translate(-50%, -50%);
   z-index: 100;
@@ -107,7 +107,7 @@
 
 @media (min-width: 768px) {
   .pop-up {
-    max-width: 600px;
+    width: 60rem;
     padding: 5rem 2rem 3rem;
   }
 
@@ -126,6 +126,6 @@
 
 @media (min-width: 950px) {
   .pop-up {
-    max-width: 850px;
+    width: 85rem;
   }
 }
