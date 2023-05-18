@@ -29,5 +29,10 @@ const errorMessage = document.querySelector('.error-message');
 // Collaboration part: Erwin Amador
 contactForm.addEventListener('submit', (event) => {
   const flag = email.value !== email.value.toLowerCase();
-  // Write Your Code here...
+  if (flag) {
+    event.preventDefault();
+    errorMessage.textContent = "The email address should be written in lower case.";
+    return;
+  } 
+  errorMessage.textContent = "";
 });
