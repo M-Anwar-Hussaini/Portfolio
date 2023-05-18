@@ -110,6 +110,10 @@
     margin: 0 !important;
   }
 
+  .error-message {
+    width: 100%;
+  }
+
   .footer {
     position: relative;
     border-top: 1px solid  #dfe1e6;
