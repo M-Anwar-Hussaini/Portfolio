@@ -31,8 +31,8 @@ contactForm.addEventListener('submit', (event) => {
   const flag = email.value !== email.value.toLowerCase();
   if (flag) {
     event.preventDefault();
-    errorMessage.textContent = "The email address should be written in lower case.";
+    errorMessage.textContent = 'The email address should be written in lower case.';
     return;
-  } 
-  errorMessage.textContent = "";
+  }
+  errorMessage.textContent = '';
 });
