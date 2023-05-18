@@ -355,6 +355,7 @@
           class="form-contact"
           action="https://formspree.io/f/xrgvjqwj"
           method="post"
+          id="form-contact"
         >
           <!-- Collaborative Part -->
           <ul class="form-fields">
@@ -362,7 +363,7 @@
               <input
                 class="form-item"
                 type="text"
-                placeholder="Anwar Hussaini"
+                placeholder="Full Name"
                 name="username"
                 id="username"
                 required
@@ -373,7 +374,7 @@
               <input
                 class="form-item"
                 type="email"
-                placeholder="anwarhussaini160@gmail.com"
+                placeholder="Write your email address here in lower case!"
                 name="user-email"
                 id="user-mail"
                 required
@@ -384,12 +385,16 @@
                 class="form-item message"
                 name="message"
                 id="message"
-                placeholder="Hey I’d like to connect to..."
+                required
+                placeholder="Your message!"
                 maxlength="500"
               ></textarea>
             </li>
           </ul>
           <button class="btn" type="submit">Get in touch</button>
+
+          <p class="error-message"></p>
+
           <a href="anwarhussaini160@gmail.com" class="my-email mobile-only"
             >anwarhussaini160@gmail.com</a
           >

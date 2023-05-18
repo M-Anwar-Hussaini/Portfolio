@@ -226,7 +226,18 @@
   border: 1px solid #008552;
 }
 
-.my-email {
+.error-message {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  text-align: left;
+  letter-spacing: 0;
+  color: #900;
+  margin-top: 2.4rem;
+  max-width: 80%;
+}
+
+.my-email:link {
   font-family: 'Inter', sans-serif;
   margin-top: 2.4rem;
   font-size: 2rem;
@@ -234,7 +245,8 @@
   line-height: 3.2rem;
   letter-spacing: 0;
   text-align: center;
-  color: #42526e;
+  color: #172b4d;
+  text-decoration: underline !important;
   text-decoration: none;
 }
 

@@ -19,6 +19,20 @@ for (let i = 0; i < menuItems.length; i += 1) {
   });
 }
 
-/* *******************
-* FOR POP UP WINDOWS *
-******************* */
+/* ***************
+ * FORM VALIDATION *
+ **************** */
+const email = document.querySelector('#user-mail');
+const contactForm = document.getElementById('form-contact');
+const errorMessage = document.querySelector('.error-message');
+
+// Collaboration part: Erwin Amador
+contactForm.addEventListener('submit', (event) => {
+  const flag = email.value !== email.value.toLowerCase();
+  if (flag) {
+    event.preventDefault();
+    errorMessage.textContent = 'The email address should be written in lower case.';
+    return;
+  }
+  errorMessage.textContent = '';
+});
