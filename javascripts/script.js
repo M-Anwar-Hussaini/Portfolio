@@ -1,10 +1,21 @@
-// Variables
+/* **************
+* ALL VARIABLES *
+************** */
 const menuIcon = document.querySelector('.menu-icon');
 const closeBtn = document.querySelector('.close-btn');
 const navBar = document.querySelector('.mobile-nav');
 const menuItems = document.querySelectorAll('.mobile-nav .menu-item');
 
-// Actions
+// Conatact form variables
+const userEmail = document.querySelector('#user-mail');
+const userName = document.getElementById('username');
+const userDescription = document.getElementById('message');
+const contactForm = document.getElementById('form-contact');
+const errorMessage = document.querySelector('.error-message');
+
+/* ***************************** *
+* MOBLILE VERSION HAMBURGER MENU *
+* ***************************** */
 menuIcon.addEventListener('click', () => {
   navBar.classList.add('is-active');
 });
@@ -22,13 +33,9 @@ for (let i = 0; i < menuItems.length; i += 1) {
 /* ***************
  * FORM VALIDATION *
  **************** */
-const email = document.querySelector('#user-mail');
-const contactForm = document.getElementById('form-contact');
-const errorMessage = document.querySelector('.error-message');
-
 // Collaboration part: Erwin Amador
 contactForm.addEventListener('submit', (event) => {
-  const flag = email.value !== email.value.toLowerCase();
+  const flag = userEmail.value !== userEmail.value.toLowerCase();
   if (flag) {
     event.preventDefault();
     errorMessage.textContent = 'The email address should be written in lower case.';
@@ -36,3 +43,7 @@ contactForm.addEventListener('submit', (event) => {
   }
   errorMessage.textContent = '';
 });
+
+/* *****************************************
+ * SAVING DATA TO LOCAL STORAGE OF BROWSER *
+ ***************************************** */
