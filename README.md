@@ -23,12 +23,7 @@
   - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [📝 License ](#-license-)
->>>>>>> f28961e20f55545858978f73002c6cf7f7a27727
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [📝 License ](#-license-)
@@ -190,9 +185,24 @@ Your working browser.
 - [ ] Twitter: [@twitterhandle](https://twitter.com/HFG_43)
 - [ ] LinkedIn: [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-g%C3%BCemes-a440591b/)
 
+---
+
 👤 **Erwin Amador**
 
 - [ ] GitHub: [@eamador1](https://github.com/eamador1)
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [x] **Add contact form**
+- [x] **Improve desktop version**
+- [x] **Use JavaScript to have interaction with clients.**
+- [ ] **Add animations and transitions on project cards**
+- [ ] **Use Bootstrap framwork to make it more responsive.**
+- [ ] **Deploy it on a global advanced server.**
+- [ ] **Make a database for it's back-end to save recruiter's data.**
+- [ ] **Advance to support _Persain_ and _Pashto_ languages (Afghanistan's local languages).**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
