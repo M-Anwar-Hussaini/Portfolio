@@ -185,6 +185,8 @@ Your working browser.
 - [ ] Twitter: [@twitterhandle](https://twitter.com/HFG_43)
 - [ ] LinkedIn: [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-g%C3%BCemes-a440591b/)
 
+---
+
 👤 **Erwin Amador**
 
 - [ ] GitHub: [@eamador1](https://github.com/eamador1)
@@ -193,11 +195,12 @@ Your working browser.
 
 - [x] **Add contact form**
 - [x] **Improve desktop version**
-- [x] **Use JavaScript to have interaction with client.**
+- [x] **Use JavaScript to have interaction with clients.**
 - [ ] **Add animations and transitions on project cards**
 - [ ] **Use Bootstrap framwork to make it more responsive.**
 - [ ] **Deploy it on a global advanced server.**
-- [ ] **Make a database for it's back-end to have recriuter's data.**
+- [ ] **Make a database for it's back-end to save recruiter's data.**
+- [ ] **Advance to support _Persain_ and _Pashto_ languages (Afghanistan's local languages).**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
