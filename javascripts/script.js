@@ -59,7 +59,7 @@ const saveDataToLocalStorage = () => {
 };
 
 // Save the form date whenever the user is intering the formElement
-username.addEventListener('click', saveDataToLocalStorage);
+userName.addEventListener('click', saveDataToLocalStorage);
 userEmail.addEventListener('click', saveDataToLocalStorage);
 userDescription.addEventListener('click', saveDataToLocalStorage);
 
