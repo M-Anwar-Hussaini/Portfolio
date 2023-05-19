@@ -1,6 +1,6 @@
 /* **************
-* ALL VARIABLES *
-************** */
+ * ALL VARIABLES *
+ ************** */
 const menuIcon = document.querySelector('.menu-icon');
 const closeBtn = document.querySelector('.close-btn');
 const navBar = document.querySelector('.mobile-nav');
@@ -14,8 +14,8 @@ const contactForm = document.getElementById('form-contact');
 const errorMessage = document.querySelector('.error-message');
 
 /* ***************************** *
-* MOBLILE VERSION HAMBURGER MENU *
-* ***************************** */
+ * MOBLILE VERSION HAMBURGER MENU *
+ * ***************************** */
 menuIcon.addEventListener('click', () => {
   navBar.classList.add('is-active');
 });
@@ -47,3 +47,26 @@ contactForm.addEventListener('submit', (event) => {
 /* *****************************************
  * SAVING DATA TO LOCAL STORAGE OF BROWSER *
  ***************************************** */
+
+// Save data to the local storage
+const saveDataToLocalStorage = () => {
+  const formInfo = {
+    name: userName.value,
+    email: userEmail.value,
+    description: userDescription.value,
+  };
+  localStorage.setItem('userInfo', JSON.stringify(formInfo));
+};
+
+// Save the form date whenever the user is intering the formElement
+// Collaborative part: Write your code here:
+
+// Fill out the fields by pre-saved data whenever the page is loaded
+window.addEventListener('load', () => {
+  const organizedData = JSON.parse(localStorage.getItem('userInfo'));
+  if (organizedData) {
+    userName.value = organizedData.name;
+    userEmail.value = organizedData.email;
+    userDescription.value = organizedData.description;
+  }
+});
