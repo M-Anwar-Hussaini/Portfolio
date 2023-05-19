@@ -23,12 +23,7 @@
   - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [📝 License ](#-license-)
->>>>>>> f28961e20f55545858978f73002c6cf7f7a27727
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [📝 License ](#-license-)
@@ -193,6 +188,18 @@ Your working browser.
 👤 **Erwin Amador**
 
 - [ ] GitHub: [@eamador1](https://github.com/eamador1)
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [x] **Add contact form**
+- [x] **Improve desktop version**
+- [x] **Use JavaScript to have interaction with client.**
+- [ ] **Add animations and transitions on project cards**
+- [ ] **Use Bootstrap framwork to make it more responsive.**
+- [ ] **Deploy it on a global advanced server.**
+- [ ] **Make a database for it's back-end to have recriuter's data.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
