@@ -59,7 +59,9 @@ const saveDataToLocalStorage = () => {
 };
 
 // Save the form date whenever the user is intering the formElement
-// Collaborative part: Write your code here:
+username.addEventListener('click', saveDataToLocalStorage);
+userEmail.addEventListener('click', saveDataToLocalStorage);
+userDescription.addEventListener('click', saveDataToLocalStorage);
 
 // Fill out the fields by pre-saved data whenever the page is loaded
 window.addEventListener('load', () => {
