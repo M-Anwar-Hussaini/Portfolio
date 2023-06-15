@@ -72,9 +72,14 @@
 }
 
 .work-image-holder {
-  height: 27rem;
-  background: linear-gradient(0deg, #ebf0ee, #ebf0ee), linear-gradient(0deg, #d0d9d4, #d0d9d4);
   margin-bottom: 1.6rem;
+}
+
+.work-photo {
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 1.6rem;
+  overflow: hidden;
 }
 
 .work-details {

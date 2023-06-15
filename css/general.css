@@ -105,33 +105,3 @@ body {
   letter-spacing: 0;
   color: #172b4d;
 }
-
-.position-absolute {
-  position: absolute;
-}
-
-.position--left {
-  left: 0;
-}
-
-.position--right {
-  right: 0;
-}
-
-.position--bottom {
-  bottom: 0;
-}
-
-.position--top {
-  top: 0;
-}
-
-.position--center-X {
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.position--center-Y {
-  top: 50%;
-  transform: translateY(-50%);
-}

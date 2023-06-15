@@ -1,10 +1,9 @@
 const projectDetails = [
   {
-    name: 'Keeping track of hundreds of components #1',
+    name: 'Awesome Book',
     description: [
-      'This is the description of first project',
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+      `Awesome-Library is a simple yet powerful web application designed to save and organize your book collection. With an intuitive user interface and robust functionality, it allows you to effortlessly add and remove books from your virtual bookshelf.
+      `,
     ],
     image: 'imgs/desktop-version/pop-up-bg-desktop.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Python'],
